@@ -20,7 +20,7 @@ func init() {
 
 func main() {
 	token := mustToken()
-	fmt.Printf("Work", token)
+	fmt.Print("Work", token)
 }
 
 func mustToken() string {
